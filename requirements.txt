@@ -1,0 +1,34 @@
+# API Framework
+fastapi>=0.95.0
+uvicorn>=0.22.0
+pydantic>=1.10.7
+python-dotenv>=1.0.0
+python-multipart>=0.0.6  # For handling form data and file uploads
+
+# Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Deep Learning
+scikit-learn>=1.2.2  # Machine learning utilities
+numpy>=1.24.3  # Numerical computing
+pandas>=2.0.1  # Data manipulation
+matplotlib>=3.7.1  # Plotting
+seaborn>=0.12.2  # Statistical data visualization
+pillow>=9.5.0  # Image processing
+opencv-python>=4.7.0.72  # Computer vision
+tqdm>=4.65.0  # Progress bars
+
+# Utilities
+psutil>=5.9.5  # System monitoring
+requests>=2.30.0  # HTTP requests
+aiofiles>=23.1.0  # Asynchronous file operations
+pydicom>=2.3.1  # DICOM medical image processing
+nibabel>=5.1.0  # Neuroimaging file formats
+
+# Development and Testing
+pytest>=7.3.1
+black>=23.3.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.3.0
